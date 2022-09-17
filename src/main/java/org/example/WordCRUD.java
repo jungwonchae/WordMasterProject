@@ -86,13 +86,13 @@ public class WordCRUD implements ICRUD{
     }
 
     public void updateItem() {
-        System.out.println("=> 수정할 단어 검색 : ");
+        System.out.print("=> 수정할 단어 검색 : ");
         String keyword = s.next();
         ArrayList<Integer> idList = this.listAll(keyword);
-        System.out.println("=> 수정할 번호 검색 : ");
+        System.out.print("=> 수정할 번호 검색 : ");
         int id = s.nextInt();
         s.nextLine();
-        System.out.println("=> 뜻 입력 : ");
+        System.out.print("=> 뜻 입력 : ");
         String meaning = s.nextLine();
         Word word = list.get(idList.get(id-1));
         word.setMeaning(meaning);
@@ -100,18 +100,17 @@ public class WordCRUD implements ICRUD{
     }
 
     public void deleteItem() {
-        System.out.println("=> 삭제할 단어 검색 : ");
+        System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();
-
         ArrayList<Integer> idList = this.listAll(keyword);
-        System.out.println("=> 삭제할 번호 검색 : ");
+        System.out.print("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
 
-        System.out.println("=> 정말로 삭제하시겠습니까?(y/n)");
-        String ans = s.next();
-        if(ans.equalsIgnoreCase("y")){
-            list.remove(idList.get(id-1));
+        System.out.print("=> 정말로 삭제하실래요?(y/n) : ");
+        String ans = s.nextLine();
+        if(ans.equalsIgnoreCase("y")) {
+            list.remove(idList.get(id - 1));
             System.out.println("단어가 삭제되었습니다. ");
         } else
             System.out.println("취소되었습니다. ");
