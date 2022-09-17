@@ -19,8 +19,7 @@
 <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/update.png?raw=true'> <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/update2.png?raw=true'>
 
 ### 7. [6. 단어 삭제] 실행화면
-<img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/delete.png?raw=true'>
- <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/delete2.png?raw=true'>
+<img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/delete.png?raw=true'> <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/delete2.png?raw=true'>
 
 ### 8. [7.파일 저장] 실행화면
 <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/save.png?raw=true'> <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/save2.png?raw=true'>
