@@ -8,3 +8,6 @@
 
 ### 3. [0. 나가기] 실행화면
 <img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/exit.png?raw=true'>
+
+### 파일 불러오기 기능
+<img src ='https://github.com/jungwonchae/WordMasterProject/blob/master/screenshots/load.png?raw=true'>
